@@ -1,4 +1,4 @@
-group 'com.liaction.ym23.flutter.plugin.biometric.ym23_flutter_plugin_biometric'
+group 'com.liaction.ym23.flutter.plugin.biometric.ym23_flutter_plugin_biometric_clean'
 version '1.0-SNAPSHOT'
 
 buildscript {
