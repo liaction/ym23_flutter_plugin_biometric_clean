@@ -59,6 +59,10 @@ class Ym23FlutterPluginBiometric {
         "ym23RegisterAndValidFace", {"register": register, "name": name});
   }
 
+  static Future<Map> ym23LocalFaceManager() {
+    return _channel.invokeMethod("ym23LocalFaceManager");
+  }
+
   ///
   /// 指纹验证
   ///
